@@ -118,3 +118,13 @@ body {
     float: right;
     padding-top: 10px;
 }
+.middle-block {
+    background-color: rgb(236, 240, 240);
+}
+.middle-left, .middle-centre, .middle-right {
+    display: inline-block;
+    width: 33%;
+}
+.middle-block img {
+    border-radius: 10px;
+}
