@@ -13,6 +13,8 @@ html {
 }
 
 body {
+    padding: 0;
+    margin: 0;
     background-color: rgb(236, 240, 240);
 }
 
@@ -20,34 +22,41 @@ body {
     width: 1400px;
     margin: 0px auto;
 }
+
 .header {
     margin: 80px 0;
     position: relative;
 }
+
 .logo img {
     border-radius: 5px;
     vertical-align: middle;
     padding-right: 15px;
 }
+
 .logo p {
     font-size: 18px;
     font-weight: bold;
     color: rgb(94, 92, 92);
 }
+
 .nav {
     position: absolute;
     right: 0;
     top: 0;
     padding-top: 5px;
 }
+
 .nav ul {
     list-style: none;
     padding-right: 0px;
 }
+
 .nav ul li {
     float: left;
     margin-left: 40px;
 }
+
 .nav ul li a {
     font-size: 20px;
     font-weight: 800;
@@ -63,18 +72,21 @@ body {
     vertical-align: middle;
     padding-bottom: 15px;
 }
+
 .info {
     margin: 50px 0;
     display: inline-block;
     vertical-align: middle;
     width: 49%;
 }
-.info2 {
+
+.actions {
     margin: 50px 0;
     display: inline-block;
     vertical-align: middle;
     width: 49%;
 }
+
 .description h1 {
     font-size: 70px;
     font-weight: 800;
@@ -82,12 +94,14 @@ body {
     margin: 15px 0;
     text-align: center;
 }
+
 .description p {
     font-size: 50px;
     color: rgb(61, 59, 59);
     margin: 0px;
     padding-left: 100px;
 }
+
 .arrow {
     width: 450px;
     background-color: rgba(77, 192, 245, 0.932);
@@ -95,6 +109,7 @@ body {
     margin: 25px auto;
     padding: 20px 25px;
 }
+
 .sign {
     width: 450px;
     background-color: rgb(214, 203, 203);
@@ -102,29 +117,39 @@ body {
     margin: 25px auto;
     padding: 20px 25px;
 }
+
 .arrow a {
     font-size: 50px;
     font-weight: 800;
     text-decoration: none;
     color: white;
 }
+
 .sign a {
     font-size: 50px;
     font-weight: 800;
     text-decoration: none;
     color: rgb(61, 59, 59);
 }
+
 .arrow img, .sign img {
     float: right;
     padding-top: 10px;
 }
-.middle-block {
+
+.gallery {
     background-color: rgb(236, 240, 240);
 }
-.middle-left, .middle-centre, .middle-right {
+
+.gallery-item {
     display: inline-block;
     width: 33%;
 }
-.middle-block img {
+
+.gallery img {
     border-radius: 10px;
+}
+
+.about {
+    background-color: white;
 }
