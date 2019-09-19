@@ -125,6 +125,7 @@ a {
     width: 460px;
     height: 100px;
     border-radius: 10px;
+    border: none;
     margin: 10px 50px;
     padding: 10px 35px;
     font-size: 40px;
@@ -233,8 +234,8 @@ a {
     display: inline-block;
 }
 
-.btn-more {
-    width: 160px;
+.btn-info {
+    border: none;
     border-radius: 10px;
     padding: 20px 30px;
     font-size: 20px;
@@ -244,15 +245,29 @@ a {
     background-color: #4695C9;
     color: white;
     margin: 30px 0;
+    outline: none;
 }
 
-.btn-more:hover {
+.btn-info img {
+    float: left;
+    margin: 2px;
+    margin-right: 10px;
+    width: 17px;
+}
+
+.btn-info:hover {
     background-color: #3A9AD4;
 }
 
-.btn-more:active,
-.btn-more:hover {
+.btn-info:active,
+.btn-info:hover {
     outline: none;
+}
+
+.btn-next img {
+    margin: 4px;
+    margin-right: 10px;
+    width: 20px;
 }
 
 .about-reading {
@@ -271,28 +286,6 @@ a {
 .about-reading p {
     line-height: 45px;
     margin-top: 40px;
-}
-
-.btn-reading {
-    width: 310px;
-    border-radius: 10px;
-    padding: 20px 30px;
-    font-size: 20px;
-    font-weight: 800;
-    text-align: center;
-    cursor: pointer;
-    background-color: #4695C9;
-    color: white;
-    margin: 30px 0;
-}
-
-.btn-reading:hover {
-    background-color: #3A9AD4;
-}
-
-.btn-reading:active,
-.btn-reading:hover {
-    outline: none;
 }
 
 .footer {
