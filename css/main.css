@@ -293,17 +293,14 @@ a {
     margin: 110px auto;
 }
 
-.random {
-    margin-right: 75px;
-}
-
-.random, .contact {
-    display: inline-block;
+.panel {
+    float: left;
     width: 290px;
     text-align: left;
+    margin-right: 60px;
 }
 
-.random h2, .contact h2 {
+.panel h2 {
     font-family: sans-serif;
     font-weight: 800;
     font-size: 22px;
@@ -311,11 +308,11 @@ a {
     margin: 0;
 }
 
-.random ul, .contact ul {
+.panel ul {
     padding-left: 0;
 }
 
-.random li, .contact li {
+.panel li {
     list-style-type: none;
     line-height: 40px;
     color: #3F3E3E;
@@ -323,10 +320,11 @@ a {
     font-size: 18px;
 }
 
-.random a {
+.panel a {
+    text-decoration: underline;
     color: #3F3E3E;
 }
 
-.contact {
-    float: right;
+.panel a:hover {
+    text-decoration: none;
 }
