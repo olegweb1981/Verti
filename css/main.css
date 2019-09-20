@@ -299,7 +299,7 @@ a {
     width: 290px;
     text-align: left;
     margin-right: 60px;
-    margin-bottom: 70px;
+    margin-bottom: 50px;
 }
 
 .panel h2 {
@@ -327,10 +327,33 @@ a {
     color: #3F3E3E;
 }
 
-.panel a:hover {
+.panel a:hover,
+.design a:hover {
     text-decoration: none;
 }
 .panel .fab {
     font-size: 50px;
+}
 
+.design {
+    width: 1400px;
+    margin: 30px auto;
+    display: flex;
+}
+
+.design p {
+    color: #3F3E3E;
+    margin-left: 400px;
+}
+
+.design a {
+    text-decoration: underline;
+    color: #3F3E3E;
+}
+
+.design i {
+    border-left: 1px solid #3F3E3E;
+    border-right: 1px solid #3F3E3E;
+    padding: 0 10px;
+    margin: 0 10px;
 }
