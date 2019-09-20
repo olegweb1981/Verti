@@ -23,6 +23,12 @@ a {
     text-decoration: none;
 }
 
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .homepage {
     width: 1400px;
     margin: 0px auto;
@@ -331,6 +337,7 @@ a {
 .design a:hover {
     text-decoration: none;
 }
+
 .panel .fab {
     font-size: 50px;
 }
@@ -338,7 +345,6 @@ a {
 .design {
     width: 1400px;
     margin: 30px auto;
-    display: flex;
 }
 
 .design p {
