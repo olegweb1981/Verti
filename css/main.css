@@ -89,6 +89,7 @@ a {
     background-color: white;
     vertical-align: middle;
     padding: 15px 0px;
+    border-radius: 5px;
 }
 
 .info {
@@ -124,7 +125,7 @@ a {
 .btn {
     width: 460px;
     height: 100px;
-    border-radius: 10px;
+    border-radius: 5px;
     border: none;
     margin: 10px 50px;
     padding: 10px 35px;
@@ -236,7 +237,7 @@ a {
 
 .btn-info {
     border: none;
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 20px 30px;
     font-size: 20px;
     font-weight: 800;
@@ -298,6 +299,7 @@ a {
     width: 290px;
     text-align: left;
     margin-right: 60px;
+    margin-bottom: 70px;
 }
 
 .panel h2 {
@@ -327,4 +329,8 @@ a {
 
 .panel a:hover {
     text-decoration: none;
+}
+.panel .fab {
+    font-size: 50px;
+
 }
