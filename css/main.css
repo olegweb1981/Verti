@@ -96,6 +96,8 @@ a {
     vertical-align: middle;
     padding: 15px 0px;
     border-radius: 5px;
+    box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.05);
+    margin-bottom: 20px;
 }
 
 .info {
@@ -142,9 +144,10 @@ a {
     cursor: pointer;
 }
 
-.btn img {
+.actions .fa-question-circle,
+.fa-arrow-circle-right {
     float: right;
-    padding-top: 10px;
+    margin-top: 10px;
 }
 
 .btn-primary {
@@ -181,6 +184,7 @@ a {
     margin: 55px 0;
     background-color: white;
     border-radius: 10px;
+    box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.05);
 }
 
 .gallery img {
@@ -209,6 +213,7 @@ a {
 
 .over {
     background-color: white;
+    box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.05);
 }
 
 .about {
