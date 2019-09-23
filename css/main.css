@@ -52,45 +52,6 @@ a {
     font-family: sans-serif;
 }
 
-.nav {
-    position: absolute;
-    right: 0;
-    top: 0;
-}
-
-.nav ul {
-    list-style: none;
-    padding-right: 0px;
-}
-
-.nav ul li {
-    float: left;
-    margin-left: 35px;
-}
-
-.nav ul li.active a {
-    background-color: #444444;
-    color: white;
-}
-
-.nav ul li.active a:hover {
-    background-color: #444444;
-}
-
-.nav ul li a {
-    display: inline-block;
-    font-size: 16px;
-    font-weight: 800;
-    color: rgb(94, 92, 92);
-    padding: 7px 10px;    
-    border-radius: 5px;
-    font-family: sans-serif;
-}
-
-.nav ul li a:hover {
-    background-color: white;
-}
-
 .description {
     background-color: white;
     vertical-align: middle;
@@ -130,48 +91,10 @@ a {
     padding-left: 78px;
 }
 
-.btn {
-    width: 460px;
-    height: 100px;
-    border-radius: 5px;
-    border: none;
-    margin: 10px 50px;
-    padding: 10px 35px;
-    font-size: 40px;
-    font-weight: 800;
-    float: right;
-    text-align: left;
-    cursor: pointer;
-}
-
 .actions .fa-question-circle,
 .fa-arrow-circle-right {
     float: right;
     margin-top: 10px;
-}
-
-.btn-primary {
-    background-color: #4695C9;
-    color: white;
-}
-
-.btn-primary:hover {
-    background-color: #3A9AD4;
-}
-
-.btn-secondary {
-    background-color: #F3F3F3;
-    color: rgb(61, 59, 59);
-}
-
-.btn-secondary:hover {
-    background-color: #E9E9E9;
-}
-
-.btn,
-.btn:active,
-.btn:hover {
-    outline: none;
 }
 
 .gallery {
@@ -244,42 +167,6 @@ a {
 
 .about-img, .about-reading {
     display: inline-block;
-}
-
-.btn-info {
-    border: none;
-    border-radius: 5px;
-    padding: 20px 30px;
-    font-size: 20px;
-    font-weight: 800;
-    text-align: center;
-    cursor: pointer;
-    background-color: #4695C9;
-    color: white;
-    margin: 30px 0;
-    outline: none;
-}
-
-.btn-info img {
-    float: left;
-    margin: 2px;
-    margin-right: 10px;
-    width: 17px;
-}
-
-.btn-info:hover {
-    background-color: #3A9AD4;
-}
-
-.btn-info:active,
-.btn-info:hover {
-    outline: none;
-}
-
-.btn-next img {
-    margin: 4px;
-    margin-right: 10px;
-    width: 20px;
 }
 
 .about-reading {

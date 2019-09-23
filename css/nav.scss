@@ -1,0 +1,40 @@
+.nav {
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    ul {
+        list-style: none;
+        padding-right: 0px;
+
+        li {
+            float: left;
+            margin-left: 35px;
+
+            &.active {
+                a {
+                    background-color: #444444;
+                    color: white;
+
+                    &:hover {
+                        background-color: #444444;
+                    }
+                }                          
+            }
+
+            a {
+                display: inline-block;
+                font-size: 16px;
+                font-weight: 800;
+                color: rgb(94, 92, 92);
+                padding: 7px 10px;    
+                border-radius: 5px;
+                font-family: sans-serif;
+
+                &:hover {
+                    background-color: white;
+                }
+            }
+        }        
+    }
+}
