@@ -19,6 +19,12 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.conteiner {
+    max-width: 100%;
+    width: 1400px;
+    margin: 0 auto;
+}
+
 a {
     text-decoration: none;
 }
@@ -30,7 +36,6 @@ a {
 }
 
 .homepage {
-    width: 1400px;
     margin: 0px auto;
 }
 
@@ -102,9 +107,8 @@ a {
 }
 
 .gallery-item {
-    display: inline-block;
+    float: left;
     width: 440px;
-    margin: 55px 0;
     background-color: white;
     border-radius: 10px;
     box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.05);
@@ -140,9 +144,9 @@ a {
 }
 
 .about {
-    width: 1400px;
     margin: 0 auto;
     padding: 90px 0 145px 0;
+    display: block;
 }
 
 .about-img h1 {
@@ -188,70 +192,5 @@ a {
 }
 
 .footer {
-    width: 1400px;
     margin: 110px auto;
-}
-
-.panel {
-    float: left;
-    width: 290px;
-    text-align: left;
-    margin-right: 60px;
-    margin-bottom: 50px;
-}
-
-.panel h2 {
-    font-family: sans-serif;
-    font-weight: 800;
-    font-size: 22px;
-    color: #3F3E3E;
-    margin: 0;
-}
-
-.panel ul {
-    padding-left: 0;
-}
-
-.panel li {
-    list-style-type: none;
-    line-height: 40px;
-    color: #3F3E3E;
-    font-family: Arial, Helvetica,;
-    font-size: 18px;
-}
-
-.panel a {
-    text-decoration: underline;
-    color: #3F3E3E;
-}
-
-.panel a:hover,
-.design a:hover {
-    text-decoration: none;
-}
-
-.panel .fab {
-    font-size: 50px;
-}
-
-.design {
-    width: 1400px;
-    margin: 30px auto;
-}
-
-.design p {
-    color: #3F3E3E;
-    margin-left: 400px;
-}
-
-.design a {
-    text-decoration: underline;
-    color: #3F3E3E;
-}
-
-.design i {
-    border-left: 1px solid #3F3E3E;
-    border-right: 1px solid #3F3E3E;
-    padding: 0 10px;
-    margin: 0 10px;
 }
