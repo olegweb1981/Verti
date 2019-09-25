@@ -1,0 +1,119 @@
+@media screen and (min-width: 336px) {
+
+    .container {
+        width: 100%;
+
+        .gallery-item {
+            margin-left: 23px;
+            width: 100%;
+        }
+
+        .info, .actions {
+            width: 100%;
+            padding: 0 20px;
+        }
+
+        .btn {
+            width: 100%;
+            margin: 10px 0;
+        }
+    }
+}
+
+
+@media screen and (min-width: 736px) {
+
+    .container {
+        width: 100%;
+
+        .gallery-item {
+            margin-left: 23px;
+            width: 100%;
+        }
+
+        .info, .actions {
+            width: 100%;
+            padding: 0 20px;
+        }
+
+        .btn {
+            width: 100%;
+            margin: 10px 0;
+            text-align: center;
+        }
+    }
+}
+
+@media screen and (min-width: 980px) {
+
+    .container {
+        width: 100%;
+
+        .gallery-item {
+            margin-left: 23px;
+            width: 31%;
+
+            h2 {
+                font-size: 18px;
+            }
+
+            p {
+                font-size: 13px
+            }
+        }
+
+        .info, .actions {
+            width: 49%;
+        }
+
+        .actions .btn {
+            width: 75%;
+        }
+    }
+}
+
+@media screen and (min-width: 1280px) {
+
+    .container {
+        width: 980px;
+
+        .gallery-item h2 {
+            font-size: 18px;
+
+            p {
+                font-size: 13px
+            }
+        }
+
+        .info, .actions {
+            width: 49;
+        }
+
+        .actions .btn {
+            width: 80%;
+        }
+    }
+}
+
+@media screen and (min-width: 1680px) {
+
+    .container {
+        width: 1400px;
+
+        .gallery-item {
+            margin-left: 33px;
+            width: 31%;
+
+            h2 {
+                font-size: 20px;
+            }
+
+            p {
+                font-size: 16px
+            }
+        }
+        .info, .actions {
+            width: 49%;
+        }
+    }
+}

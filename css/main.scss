@@ -19,7 +19,7 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-.conteiner {
+.container {
     max-width: 100%;
     width: 1400px;
     margin: 0 auto;
@@ -66,18 +66,18 @@ a {
     margin-bottom: 20px;
 }
 
-.info {
+.info, .actions {
     margin: 50px 0;
-    display: inline-block;
-    vertical-align: middle;
+    display: block;
     width: 49%;
 }
 
+.info {
+    float: left;
+}
+
 .actions {
-    margin: 50px 0;
-    display: inline-block;
-    vertical-align: middle;
-    width: 49%;
+    float: right;
 }
 
 .description h1 {
@@ -104,21 +104,24 @@ a {
 
 .gallery {
     background-color: #E7E7E7;
+    margin: 40px 0 80px -35px;
 }
 
 .gallery-item {
     float: left;
-    width: 440px;
+    width: 31%;
     background-color: white;
     border-radius: 10px;
     box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.05);
+    margin: 45px 0 0 33px;
 }
 
 .gallery img {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    width: 100%;
     margin-bottom: 60px;
+    width: 100%;
+    display: block;
 }
 
 .gallery h2 {
@@ -135,7 +138,7 @@ a {
 
 .gallery h2,
 .gallery p {
-    margin-left: 35px;
+    margin: 0 35px 0 35px;
 }
 
 .over {
