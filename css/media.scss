@@ -1,120 +1,152 @@
-@media screen and (min-width: 336px) {
+@media screen and (max-width: 1680px) {
 
     .container {
-        width: 100%;
+        width: 1400px;
+    }
 
-        .gallery-item {
-            margin-left: 23px;
-            width: 100%;
-        }
+    .gallery-item {
+        margin: 45px 0 0 30px;
+    }
+}
 
-        .info, .actions {
-            width: 100%;
-            padding: 0 20px;
+@media screen and (max-width: 1280px) {
+
+    .container {
+        width: 980px;
+    }
+
+    .logo img {
+        width: 15%;
+    }
+
+    .logo p {
+        font-size: 13px;
+    }
+
+    .nav ul li a {
+        font-size: 13px;
+        font-weight: 600;
+    }
+
+    .info {
+        width: 55%;
+
+        h1, p {
+            margin-left: 35px;
+            padding: 0;
         }
+    }
+    
+    .actions {
+        width: 45%;
 
         .btn {
-            width: 100%;
-            margin: 10px 0;
+            width: 65%;
+            height: 90px;
+            margin: 10px 50px;
+            padding: 10px 25px;
+            font-size: 33px;
+        }
+    }
+
+    .gallery-item {
+        width: 30%;
+        margin: 45px 0 0 30px;
+        padding: 0;
+
+        h2 {
+            font-size: 20px;
+            margin: 0 35px 0 35px ;
+        }
+        p {
+            font-size: 14px;
+            line-height: 35px;
+            margin: 0 35px 25px 35px ;
         }
     }
 }
 
-
-@media screen and (min-width: 736px) {
+@media screen and (max-width: 980px) {
 
     .container {
         width: 100%;
 
+        .description {
+            margin: 0 50px;
+
+            .info, .actions {
+                width: 100%;
+                padding: 0 50px;
+                text-align: center;
+                margin: 20px 0;
+            }
+
+            .info h1 {
+                    margin: 0;
+                    font-size: 50px;
+                }
+
+                p {
+                    margin: 0;
+                    padding: 0;
+                    font-size: 35px;
+                }
+
+            .actions .btn {
+                width: 100%;
+                margin: 10px 0;
+                text-align: center;
+            }
+        }
+
+        .gallery {
+            margin: 40px 0 0 0;
+            padding: 0 50px;
+        }
+
         .gallery-item {
-            margin-left: 23px;
             width: 100%;
+            margin: 35px 0;
         }
 
-        .info, .actions {
-            width: 100%;
-            padding: 0 20px;
+        .nav,
+        .logo {
+            display: none;
         }
+    }
+}
 
-        .btn {
-            width: 100%;
-            margin: 10px 0;
-            text-align: center;
+@media screen and (max-width: 736px) {
+
+    .container {
+        width: 100%;
+
+        .description {
+
+            .info h1 {
+                margin-bottom: 20px;
+                font-size: 30px;
+            }
+        
+            p {
+                margin: 0;
+                padding: 0;
+                font-size: 20px;
+            }
         }
+    } 
+}
+
+@media screen and (max-width: 336px) {
+
+    .container {
+        width: 100%;
     }
 }
 
 @media screen and (min-width: 980px) {
 
-    .container {
-        width: 100%;
-
-        .gallery-item {
-            margin-left: 23px;
-            width: 31%;
-
-            h2 {
-                font-size: 18px;
-            }
-
-            p {
-                font-size: 13px
-            }
-        }
-
-        .info, .actions {
-            width: 49%;
-        }
-
-        .actions .btn {
-            width: 75%;
-        }
-    }
-}
-
-@media screen and (min-width: 1280px) {
-
-    .container {
-        width: 980px;
-
-        .gallery-item h2 {
-            font-size: 18px;
-
-            p {
-                font-size: 13px
-            }
-        }
-
-        .info, .actions {
-            width: 49;
-        }
-
-        .actions .btn {
-            width: 80%;
-        }
-    }
-}
-
-@media screen and (min-width: 1680px) {
-
-    .container {
-        width: 1400px;
-
-        .gallery-item {
-            margin-left: 33px;
-            width: 31%;
-
-            h2 {
-                font-size: 20px;
-            }
-
-            p {
-                font-size: 16px
-            }
-        }
-
-        .info, .actions {
-            width: 49%;
-        }
+    .logo-mob {
+        display: none;
     }
 }

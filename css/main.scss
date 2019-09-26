@@ -44,6 +44,47 @@ a {
     position: relative;
 }
 
+.logo-mob {
+    position: relative;
+    text-align: center;
+    margin: 50px 0 30px 0;
+
+    button {
+        position: absolute;
+        left: 10px;
+        top: -65px;
+        padding: 10px 20px;
+        background-color: #BDBDBD;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+        outline: none;
+
+        &:hover {
+            background-color: #aaaaaa;
+        }
+
+        &:active,&:hover {
+            outline: none;
+        }
+    }
+
+    i {
+        font-size: 20px;
+        color: white;
+    }
+
+    img {
+        margin-bottom: 20px;
+    }
+
+    span {
+        font-size: 13px;
+        font-weight: 800;
+        font-family: sans-serif;
+    }
+}
+
 .logo img {
     border-radius: 5px;
     vertical-align: middle;
@@ -114,6 +155,7 @@ a {
     border-radius: 10px;
     box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.05);
     margin: 45px 0 0 33px;
+    padding-bottom: 50px;
 }
 
 .gallery img {
