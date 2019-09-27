@@ -20,9 +20,9 @@ body {
 }
 
 .container {
+    margin: 0 auto;
     max-width: 100%;
     width: 1400px;
-    margin: 0 auto;
 }
 
 a {
@@ -50,9 +50,9 @@ a {
     margin: 50px 0 30px 0;
 
     button {
-        position: absolute;
+        position: fixed;
         left: 10px;
-        top: -65px;
+        top: 10px;
         padding: 10px 20px;
         background-color: #BDBDBD;
         border-radius: 5px;
@@ -100,41 +100,39 @@ a {
 
 .description {
     background-color: white;
-    vertical-align: middle;
-    padding: 15px 0px;
     border-radius: 5px;
     box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.05);
-    margin-bottom: 20px;
+    padding: 80px;
 }
 
 .info, .actions {
-    margin: 50px 0;
+    margin: 0;
     display: block;
-    width: 49%;
 }
 
 .info {
+    width: 58%;
     float: left;
 }
 
 .actions {
     float: right;
+    width: 41%;
 }
 
 .description h1 {
-    font-size: 55px;
+    font-size: 57px;
     font-weight: 800;
     color: rgb(61, 59, 59);
     margin: 0px;
     font-family: sans-serif;
-    margin-left: 78px;
 }
 
 .description p {
-    font-size: 44px;
+    font-size: 46px;
     color: rgb(61, 59, 59);
     margin: 0px;
-    padding-left: 78px;
+    font-family: inherit;
 }
 
 .actions .fa-question-circle,
@@ -145,7 +143,7 @@ a {
 
 .gallery {
     background-color: #E7E7E7;
-    margin: 40px 0 80px -35px;
+    margin: 5px 0 50px -32px;
 }
 
 .gallery-item {
@@ -190,7 +188,7 @@ a {
 
 .about {
     margin: 0 auto;
-    padding: 90px 0 145px 0;
+    padding: 90px 0 80px 0;
     display: block;
 }
 
@@ -199,43 +197,55 @@ a {
     font-weight: 800;
     font-size: 24px;
     color: #3F3E3E;
-    margin-top: 0;
-    margin-bottom: 30px;
+    margin: 26px 0 0 18px;
 }
 
 .about-img {
-    width: 440px;
-}
-
-.about-img img {
-    border-radius: 5px;
-    width: 195px;
-    margin-right: 20px;
-    margin-bottom: 20px;
+    width: 33%;
+    margin-top: -20px;
+    margin-left: -20px;
+    
 }
 
 .about-img, .about-reading {
     display: inline-block;
 }
 
-.about-reading {
-    width: 920px;
-    float: right;
-    padding-left: 15px;
+.col-img {
+    width: 50%;
+    float: left;
+    padding: 20px 0 0 20px;
+
+    img {
+        display: block;
+        width: 100%;
+        border-radius: 8px;
+    }
 }
 
-.about-reading h1 {
+.about-reading {
+    width: 66%;
+    float: right;
+    padding-left: 15px;
+
+    h1 {
     font-family: sans-serif;
     font-weight: 800;
-    font-size: 40px;
+    font-size: 38px;
     color: #3F3E3E;
     margin: 0;
-}
-.about-reading p {
-    line-height: 45px;
-    margin-top: 40px;
+    }
+
+    p {
+        line-height: 40px;
+        margin: 30px 0 0 0;
+
+        a{
+            text-decoration: underline;
+        }
+    }
 }
 
 .footer {
-    margin: 110px auto;
+    margin: 100px auto 0 auto;
 }
