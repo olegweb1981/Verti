@@ -20,7 +20,7 @@
     }
 
     .logo img {
-        width: 15%;
+        width: 14%;
     }
 
     .logo p {
@@ -100,8 +100,17 @@
     .container {
         width: 90%;
 
+        .header {
+            margin: 0;
+        }
+
+        .logo-mob img {
+            margin-bottom: 15px;
+            border-radius: 6px;
+            width: 120px;
+        }
+
         .description {
-            margin: 0 50px;
             padding: 40px;
 
             .info, .actions {
@@ -125,12 +134,15 @@
                 width: 100%;
                 margin: 10px 0;
                 text-align: center;
+
+                i {
+                    float: none;
+                }
             }
         }
 
         .gallery {
             margin: 40px 0 0 0;
-            padding: 0 50px;
         }
 
         .gallery-item {
@@ -149,7 +161,7 @@
     }
 
     .about {
-        padding: 50px 50px;
+        padding: 50px 0;
     }
 
     .about-img {
@@ -160,8 +172,11 @@
     .about-reading {
         width: 100%;
         padding: 50px 0 0 0;
-        
         border-top: 1px solid rgba(0, 0, 0, 0.05);
+
+        .btn-next i {
+            float: none;
+        }
     }
 
     .btn-info {
@@ -169,12 +184,8 @@
         margin-bottom: 80px
     }
 
-    .btn-next {
-        margin-bottom: 40px;
-    }
-
     .footer {
-        padding: 50px 50px 0 50px;
+        padding-top: 50px;;
         margin: 50px auto;
 
         .panel {
@@ -206,11 +217,30 @@
     .container {
         width: 100%;
 
+        .header {
+            margin: 40px 0 50px 0;
+        }
+
+        .logo-mob {
+            margin: 40px 0 30px 0;
+        }
+
+        .logo-mob img {
+            margin-bottom: 10px;
+            border-radius: 6px;
+            width: 110px;
+        }
+
+        .main {
+            margin: 0 15px;
+        }
+
         .description {
-            padding: 15px;
+            padding: 26px 15px 0 15px;
 
             .info, .actions {
                 padding: 0;
+                margin: 5px 0;
             }
 
             .info h1 {
@@ -221,7 +251,7 @@
             p {
                 margin: 0;
                 padding: 0;
-                font-size: 20px;
+                font-size: 24px;
             }
 
             .btn {
@@ -230,17 +260,57 @@
                 font-size: 21px;
             }
         }
+
+        .gallery {
+            margin: 0;
+
+            .gallery-item {
+                margin: 20px 0;
+
+                img {
+                    margin-bottom: 30px;
+                }
+            }
+        }
+    }
+
+    .over {
+        margin-top: 20px;
+
+        .about {
+            padding: 50px 30px 0 30px;
+
+            .btn-info {
+                margin-bottom: 40px;
+            }
+
+            .about-reading {
+                padding: 20px 0 0 0;
+            }
+        }
     }
 
     .footer {
-        padding: 0 50px 0 50px;
+        padding: 0 30px 0 30px;
         margin: 0 auto;
 
         .panel {
             width: 100%;
             border-bottom: 1px solid #969494;
             padding-bottom: 25px;
+            margin: 40px 0 0 0;
         }
+    }
+
+    .design {
+        text-align: left;
+        padding-left: 30px;
+
+        i {
+            padding: 0;
+            margin: 0;
+        }
+
     }
 }
 

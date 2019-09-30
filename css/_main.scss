@@ -59,6 +59,8 @@ a {
         border: none;
         cursor: pointer;
         outline: none;
+        background: rgba(189, 189, 189, 0.5);
+        text-decoration: none;
 
         &:hover {
             background-color: #aaaaaa;
@@ -75,7 +77,9 @@ a {
     }
 
     img {
-        margin-bottom: 20px;
+        margin-bottom: 10px;
+        border-radius: 6px;
+        width: 18%;
     }
 
     span {
@@ -86,9 +90,9 @@ a {
 }
 
 .logo img {
-    border-radius: 5px;
+    border-radius: 6px;
     vertical-align: middle;
-    padding-right: 15px;
+    margin-right: 15px;
 }
 
 .logo p {
@@ -242,6 +246,11 @@ a {
 
         a{
             text-decoration: underline;
+            color: #328AC3;
+
+            &:hover {
+                text-decoration: none;
+            }
         }
     }
 }
